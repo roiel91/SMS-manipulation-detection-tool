@@ -6,8 +6,8 @@ The SMS-manipulation-detection-tool determines whether an Android mobile phone t
 
   messageDet.exe [start datetime] [end datetime]
   
-* start_datetime : The starting date and time for the analysis  (format: yyyymmddhhmmss)'
-* end datetime   : The ending date and time for the analysis (format: yyyymmddhhmmss)'
+* **start_datetime** : The starting date and time for the analysis  (format: yyyymmddhhmmss)
+* **end datetime**   : The ending date and time for the analysis > (format: yyyymmddhhmmss)
 
 ## Example :
 
@@ -18,7 +18,9 @@ The SMS-manipulation-detection-tool determines whether an Android mobile phone t
 Please be aware of the following cautions before using this tool:
 
 1. Installing ADB (Android Debug Bridge) : ADB is a command-line tool that allows you to communicate with Android devices.
+
    [adb 관련 정보](https://developer.android.com/tools/adb)
+   
 2. Accurate Date and Time Format: The tool requires dates to be in the exact yyyymmddhhmmss format. Incorrect formatting may result in errors or inaccurate analysis.
 
 
